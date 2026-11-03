@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340">
+  <!-- 扁平向量插畫風：3/4 側視 Benchy -->
+  <defs>
+    <linearGradient id="hs" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3fb6a8"/><stop offset="1" stop-color="#1f7f76"/></linearGradient>
+    <pattern id="ly" width="6" height="4" patternUnits="userSpaceOnUse"><path d="M0 3.5H6" stroke="#000" stroke-opacity=".09"/></pattern>
+  </defs>
+  <ellipse cx="205" cy="300" rx="150" ry="13" fill="#000" opacity=".35"/>
+  <!-- stern box -->
+  <path d="M58 172 L104 164 L104 204 L58 210Z" fill="#2f9a8f"/>
+  <path d="M58 172 L72 162 L116 156 L104 164Z" fill="#7fd9cc"/>
+  <path d="M104 164 L116 156 L116 198 L104 204Z" fill="#23786f"/>
+  <!-- hull top rim (deck) -->
+  <path d="M40 206 L120 196 L250 196 Q312 194 356 150 L370 158 Q330 214 262 220 L120 222 L48 226Z" fill="#7fd9cc"/>
+  <!-- hull side -->
+  <path d="M48 226 L120 222 L262 220 Q330 214 370 158 Q370 232 318 268 Q270 296 190 296 L104 292 Q62 286 50 254Z" fill="url(#hs)"/>
+  <path d="M48 226 L120 222 L262 220 Q330 214 370 158 Q370 232 318 268 Q270 296 190 296 L104 292 Q62 286 50 254Z" fill="url(#ly)"/>
+  <!-- hull shading band -->
+  <path d="M60 268 Q120 284 200 284 Q290 282 344 236 Q332 262 312 274 Q264 296 190 296 L104 292 Q66 286 56 262Z" fill="#17625b" opacity=".7"/>
+  <!-- porthole + anchor hole -->
+  <ellipse cx="318" cy="222" rx="10" ry="8" fill="#0f4843"/>
+  <ellipse cx="320" cy="220" rx="5" ry="3.5" fill="#7fd9cc" opacity=".5"/>
+  <!-- cabin side -->
+  <path d="M146 112 L250 112 L250 214 L146 214Z" fill="#3fb6a8"/>
+  <path d="M146 112 L250 112 L250 214 L146 214Z" fill="url(#ly)"/>
+  <!-- cabin front -->
+  <path d="M250 112 L278 100 L278 202 L250 214Z" fill="#2a948a"/>
+  <!-- door (arched) -->
+  <path d="M164 214 V158 Q164 138 184 138 Q204 138 204 158 V214Z" fill="#0f4843"/>
+  <!-- window -->
+  <rect x="218" y="134" width="22" height="34" rx="4" fill="#0f4843"/>
+  <path d="M256 128 L272 121 L272 160 L256 166Z" fill="#0f4843"/>
+  <!-- roof -->
+  <path d="M132 104 L254 104 L254 116 L132 116Z" fill="#7fd9cc"/>
+  <path d="M132 104 L164 88 L288 88 L254 104Z" fill="#a8eadf"/>
+  <path d="M254 104 L288 88 L288 100 L254 116Z" fill="#5cc7b9"/>
+  <!-- chimney -->
+  <path d="M196 56 V94 Q213 102 230 94 V56Z" fill="#2f9a8f"/>
+  <path d="M213 56 V100 Q222 99 230 94 V56Z" fill="#23786f"/>
+  <ellipse cx="213" cy="56" rx="17" ry="7" fill="#7fd9cc"/>
+  <ellipse cx="213" cy="56" rx="10" ry="4" fill="#0f4843"/>
+  <!-- highlights -->
+  <path d="M70 238 Q140 248 240 244" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="4" stroke-linecap="round"/>
+  <path d="M152 122 V200" stroke="#fff" stroke-opacity=".25" stroke-width="4" stroke-linecap="round"/>
+</svg>
