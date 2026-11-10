@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://liketech.bymind.world/sitemap.xml
